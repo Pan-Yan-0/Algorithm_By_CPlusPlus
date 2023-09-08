@@ -68,17 +68,17 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<int> arr;
-    arr.push_back(10);
-    arr.push_back(9);
-    arr.push_back(2);
-    arr.push_back(5);
-    arr.push_back(3);
-    arr.push_back(7);
-    arr.push_back(101);
-    arr.push_back(18);
-    cout << s.lengthOfLIS(arr);
-    return 0;
-}
+//int main() {
+//    Solution s;
+//    vector<int> arr;
+//    arr.push_back(10);
+//    arr.push_back(9);
+//    arr.push_back(2);
+//    arr.push_back(5);
+//    arr.push_back(3);
+//    arr.push_back(7);
+//    arr.push_back(101);
+//    arr.push_back(18);
+//    cout << s.lengthOfLIS(arr);
+//    return 0;
+//}
