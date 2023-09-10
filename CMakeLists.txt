@@ -8,4 +8,8 @@ add_executable(Project1 main.cpp
         算法/ASCALLMin.cpp
         算法/lengthOfLIS.h
         算法/lengthOfLIS.cpp
-        算法/numDistinct.cpp)
+        算法/numDistinct.cpp
+        算法/findNumberOfLIS.h
+        算法/findNumberOfLIS.cpp
+        teacherDay.cpp
+        算法/findLongestChain.cpp)
