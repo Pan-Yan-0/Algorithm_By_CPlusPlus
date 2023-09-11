@@ -1,0 +1,14 @@
+//
+// Created by 。 on 2023/9/11.
+//
+
+#ifndef PROJECT1_LONGESTARITHSEQLENGTH_H
+#define PROJECT1_LONGESTARITHSEQLENGTH_H
+
+
+class longestArithSeqLength {
+
+};
+
+
+#endif //PROJECT1_LONGESTARITHSEQLENGTH_H
