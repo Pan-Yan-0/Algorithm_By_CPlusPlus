@@ -40,19 +40,19 @@ public:
 
 };
 
-int main() {
-    Solution s;
-    vector<int> num;
-    num.push_back(1);
-    num.push_back(5);
-    num.push_back(6);
-    num.push_back(7);
-    num.push_back(5);
-    num.push_back(3);
-    num.push_back(4);
-    num.push_back(2);
-    num.push_back(1);
-    int difference = -2;
-    cout << s.longestSubsequence(num, difference);
-    return 0;
-}
+//int main() {
+//    Solution s;
+//    vector<int> num;
+//    num.push_back(1);
+//    num.push_back(5);
+//    num.push_back(6);
+//    num.push_back(7);
+//    num.push_back(5);
+//    num.push_back(3);
+//    num.push_back(4);
+//    num.push_back(2);
+//    num.push_back(1);
+//    int difference = -2;
+//    cout << s.longestSubsequence(num, difference);
+//    return 0;
+//}
