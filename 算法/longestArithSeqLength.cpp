@@ -66,16 +66,16 @@ public:
     }
 };
 
-int main() {
-    //20,1,15,3,10,5,8
-    //9,4,7,2,10
-    Solution s;
-    vector<int> num;
-    num.push_back(9);
-    num.push_back(4);
-    num.push_back(7);
-    num.push_back(2);
-    num.push_back(10);
-    cout << s.longestArithSeqLength(num);
-    return 0;
-}
+//int main() {
+//    //20,1,15,3,10,5,8
+//    //9,4,7,2,10
+//    Solution s;
+//    vector<int> num;
+//    num.push_back(9);
+//    num.push_back(4);
+//    num.push_back(7);
+//    num.push_back(2);
+//    num.push_back(10);
+//    cout << s.longestArithSeqLength(num);
+//    return 0;
+//}

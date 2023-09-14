@@ -14,4 +14,6 @@ add_executable(Project1 main.cpp
         teacherDay.cpp
         算法/findLongestChain.cpp
         算法/longestSubsequence.cpp
-        算法/longestArithSeqLength.cpp)
+        算法/longestArithSeqLength.cpp
+        算法/maxEnvelopes.h
+        算法/maxEnvelopes.cpp)
