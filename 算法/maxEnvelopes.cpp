@@ -126,33 +126,33 @@ public:
     }
 };
 
-int main() {
-    Solution s;
-    vector<vector<int>> nums;
-    //输入：envelopes = [[5,4],[6,4],[6,7],[2,3]]
-    //[[4,5],[4,6],[6,7],[2,3],[1,1]]
-    vector<int> num;
-    num.push_back(4);
-    num.push_back(5);
-    nums.push_back(num);
-    num.clear();
-    num.push_back(4);
-    num.push_back(6);
-    nums.push_back(num);
-    num.clear();
-    num.push_back(6);
-    num.push_back(7);
-    nums.push_back(num);
-    num.clear();
-    num.push_back(2);
-    num.push_back(3);
-    nums.push_back(num);
-    num.clear();
-    num.push_back(1);
-    num.push_back(1);
-    nums.push_back(num);
-    num.clear();
-
-    cout << s.maxEnvelopes(nums);
-    return 0;
-}
+//int main() {
+//    Solution s;
+//    vector<vector<int>> nums;
+//    //输入：envelopes = [[5,4],[6,4],[6,7],[2,3]]
+//    //[[4,5],[4,6],[6,7],[2,3],[1,1]]
+//    vector<int> num;
+//    num.push_back(4);
+//    num.push_back(5);
+//    nums.push_back(num);
+//    num.clear();
+//    num.push_back(4);
+//    num.push_back(6);
+//    nums.push_back(num);
+//    num.clear();
+//    num.push_back(6);
+//    num.push_back(7);
+//    nums.push_back(num);
+//    num.clear();
+//    num.push_back(2);
+//    num.push_back(3);
+//    nums.push_back(num);
+//    num.clear();
+//    num.push_back(1);
+//    num.push_back(1);
+//    nums.push_back(num);
+//    num.clear();
+//
+//    cout << s.maxEnvelopes(nums);
+//    return 0;
+//}

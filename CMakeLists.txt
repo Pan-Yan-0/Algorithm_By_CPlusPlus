@@ -16,4 +16,6 @@ add_executable(Project1 main.cpp
         算法/longestSubsequence.cpp
         算法/longestArithSeqLength.cpp
         算法/maxEnvelopes.h
-        算法/maxEnvelopes.cpp)
+        算法/maxEnvelopes.cpp
+        算法/longestObstacleCourseAtEachPosition.h
+        算法/longestObstacleCourseAtEachPosition.cpp)
