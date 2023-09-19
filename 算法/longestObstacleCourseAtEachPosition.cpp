@@ -67,37 +67,58 @@ private:
         }
         return ans;
     }
+    
+    
+    vector<int> greedy1(vector<int> nums){
+        int length = nums.size();
+        vector<int> dp;
+        vector<int> answer(length,1);
+        dp.push_back(nums[0]);
+        for (int i = 1; i < length; ++i) {
+            auto iterator = upper_bound(dp.begin(), dp.end(), nums[i]);
+            if (iterator == dp.end()){
+                dp.push_back(nums[i]);
+                answer[i] = dp.size();
+            } else {
+                int index = iterator - dp.begin();
+                answer[i] = index + 1;
+
+                dp[index] = nums[i];
+            }
+        }
+        return answer;
+    }
 public:
     vector<int> longestObstacleCourseAtEachPosition(vector<int> &obstacles) {
-        return greedy(obstacles);
+        return greedy1(obstacles);
     }
 };
 
-int main() {
-
-    Solution s;
-    vector<int> nums;
-    //201,19,363,292,123,211,333,387,296,500,401,42,176,476,473,498
-    nums.push_back(201);
-    nums.push_back(19);
-    nums.push_back(363);
-    nums.push_back(292);
-    nums.push_back(123);
-    nums.push_back(211);
-    nums.push_back(333);
-    nums.push_back(387);
-    nums.push_back(296);
-    nums.push_back(500);
-    nums.push_back(401);
-    nums.push_back(42);
-    nums.push_back(176);
-    nums.push_back(476);
-    nums.push_back(473);
-    nums.push_back(498);
-    for (const auto &item: s.longestObstacleCourseAtEachPosition(nums)) {
-        cout << item << " ";
-    }
-    cout << endl;
-
-    return 0;
-}
+//int main() {
+//
+//    Solution s;
+//    vector<int> nums;
+//    //201,19,363,292,123,211,333,387,296,500,401,42,176,476,473,498
+//    nums.push_back(201);
+//    nums.push_back(19);
+//    nums.push_back(363);
+//    nums.push_back(292);
+//    nums.push_back(123);
+//    nums.push_back(211);
+//    nums.push_back(333);
+//    nums.push_back(387);
+//    nums.push_back(296);
+//    nums.push_back(500);
+//    nums.push_back(401);
+//    nums.push_back(42);
+//    nums.push_back(176);
+//    nums.push_back(476);
+//    nums.push_back(473);
+//    nums.push_back(498);
+//    for (const auto &item: s.longestObstacleCourseAtEachPosition(nums)) {
+//        cout << item << " ";
+//    }
+//    cout << endl;
+//
+//    return 0;
+//}

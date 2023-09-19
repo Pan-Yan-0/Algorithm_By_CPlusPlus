@@ -1,0 +1,14 @@
+//
+// Created by 。 on 2023/9/18.
+//
+
+#ifndef PROJECT1_LONGESTCOMMONSUBSEQUENCE_H
+#define PROJECT1_LONGESTCOMMONSUBSEQUENCE_H
+
+
+class longestCommonSubsequence {
+
+};
+
+
+#endif //PROJECT1_LONGESTCOMMONSUBSEQUENCE_H

@@ -18,4 +18,8 @@ add_executable(Project1 main.cpp
         算法/maxEnvelopes.h
         算法/maxEnvelopes.cpp
         算法/longestObstacleCourseAtEachPosition.h
-        算法/longestObstacleCourseAtEachPosition.cpp)
+        算法/longestObstacleCourseAtEachPosition.cpp
+        算法/longestCommonSubsequence.h
+        算法/longestCommonSubsequence.cpp
+        算法/maxUncrossedLines.cpp
+        算法/maxUncrossedLines.h)
