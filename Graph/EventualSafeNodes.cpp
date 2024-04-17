@@ -37,7 +37,7 @@ public:
                 matrix[graph[i][j]].push_back(i);
             }
         }
-        //
+        // 根据反向图，查找那些可以到达安全点的点，对其进行出度更新，假如为 0 ，便变成安全点
         queue<int> qq;
         for (int i = 0; i < inDeg.size(); ++i) {
             if (inDeg[i] == 0) qq.push(i);
@@ -50,6 +50,7 @@ public:
                 if (inDeg[temp]==0) qq.push(temp);
             }
         }
+        // 最后出度为 0 的点全部为安全点
         vector<int> ans;
         for (int i = 0; i < inDeg.size(); ++i) {
             if (inDeg[i]==0) ans.push_back(i);
@@ -80,3 +81,32 @@ public:
         }
     }
 };
+class Solution2 {
+public:
+    vector<int> eventualSafeNodes(vector<vector<int>> &graph) {
+        int n = graph.size();
+        vector<int> color(n);
+        function<bool(int)> safe = [&](int x) {
+            if (color[x] > 0) {
+                return color[x] == 2;
+            }
+            color[x] = 1;
+            for (int y : graph[x]) {
+                if (!safe(y)) {
+                    return false;
+                }
+            }
+            color[x] = 2;
+            return true;
+        };
+
+        vector<int> ans;
+        for (int i = 0; i < n; ++i) {
+            if (safe(i)) {
+                ans.push_back(i);
+            }
+        }
+        return ans;
+    }
+};
+

@@ -87,4 +87,10 @@ add_executable(untitled2 main.cpp
         LeetCodeCompare/FindKthSmallest.cpp
         Graph/FindCircleNum.cpp
         Graph/EventualSafeNodes.cpp
+        Graph/CanVisitAllRooms.cpp
+        EveryDayOneProblem/MinMalwareSpread.cpp
+        Graph/ShortestAlternatingPaths.cpp
+        Graph/NumOfMinutes.cpp
+        Graph/MinReorder.cpp
+        EveryDayOneProblem/MinMalwareSpread2.cpp
 )
