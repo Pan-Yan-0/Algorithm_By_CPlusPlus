@@ -93,4 +93,10 @@ add_executable(untitled2 main.cpp
         Graph/NumOfMinutes.cpp
         Graph/MinReorder.cpp
         EveryDayOneProblem/MinMalwareSpread2.cpp
+        Graph/AllPathsSourceTarget.cpp
+        Graph/CriticalConnections.cpp
+        EveryDayOneProblem/FindOriginalArray.cpp
+        Graph/NearestExit.cpp
+        Graph/ShortestBridge.cpp
+        EveryDayOneProblem/MinSkips.cpp
 )
