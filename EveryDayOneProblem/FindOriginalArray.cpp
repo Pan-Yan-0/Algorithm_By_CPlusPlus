@@ -56,8 +56,8 @@ public:
     }
 };
 
-int main() {
-    Solution solution;
-    vector<int> arr = solution.findOriginalArray({10, 6, 18, 3, 9, 5, 6, 3});
-    return 0;
-}
+//int main() {
+//    Solution solution;
+//    vector<int> arr = solution.findOriginalArray({10, 6, 18, 3, 9, 5, 6, 3});
+//    return 0;
+//}

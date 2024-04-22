@@ -99,4 +99,11 @@ add_executable(untitled2 main.cpp
         Graph/NearestExit.cpp
         Graph/ShortestBridge.cpp
         EveryDayOneProblem/MinSkips.cpp
+        Graph/CanFinish.cpp
+        Graph/FindSmallestSetOfVertices.cpp
+        EveryDayOneProblem/CombinationSum.cpp
+        BlueBridgeCompare/GoodNumber.cpp
+        BlueBridgeCompare/Buitiful.cpp
+        BlueBridgeCompare/StepNumber.cpp
+        BlueBridgeCompare/Climing.cpp
 )
