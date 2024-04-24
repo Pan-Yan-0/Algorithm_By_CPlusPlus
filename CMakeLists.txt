@@ -106,4 +106,11 @@ add_executable(untitled2 main.cpp
         BlueBridgeCompare/Buitiful.cpp
         BlueBridgeCompare/StepNumber.cpp
         BlueBridgeCompare/Climing.cpp
+        EveryDayOneProblem/CombinationSum4.cpp
+        EveryDayOneProblem/CombinationSum3.cpp
+        Graph/ValidPath.cpp
+        Graph/CountPairs.cpp
+        Graph/MaxSatisfied.cpp
+        Graph/AmountOfTime.cpp
+        theInclude.h
 )
