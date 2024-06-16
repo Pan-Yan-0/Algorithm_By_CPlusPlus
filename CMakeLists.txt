@@ -113,4 +113,13 @@ add_executable(untitled2 main.cpp
         Graph/MaxSatisfied.cpp
         Graph/AmountOfTime.cpp
         theInclude.h
+        Graph/MakeConnected.cpp
+        Graph/MinScore.cpp
+        text.cpp
+        LeetCodeCompare/NumberOfPairs.cpp
+        LeetCodeCompare/NumberOfPairs.cpp
+        LeetCodeCompare/MaximumLength.cpp
+        lisan1.cpp
+        temp.cpp
+        LeetCodeCompare/lllll.cpp
 )
